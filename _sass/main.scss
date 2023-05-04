@@ -1,0 +1,200 @@
+/* Fix spacings in sub items */
+ul ol, ol ul, ol ol, ul ul {
+  margin-bottom: 0px;
+}
+
+/* 
+* Navigation  
+* Thanks to https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+*/
+.position-nav {
+  position: relative;
+  width: 100%;
+}
+  
+.navigation {
+  /*overflow: hidden;
+  background-color: #333;
+  font-family: Arial;*/
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 1.5;
+}
+/* Links inside the navigation */
+.navigation a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navigation links on hover */
+.navigation a:hover, .dropdown:hover .dropbtn {
+  /*background-color: red;*/
+  background-color: #fdc234;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*
+* Continous text (used in personal site)
+*/
+div.continuous-text {
+  float: left;
+  width: 65%;
+  padding-right: 25px;
+}
+
+/*
+* Publication list
+*/
+div.listofpapers ul li p {
+  margin-bottom: 0;
+}
+
+div.listofpapers {
+  margin-bottom: 20px;
+}
+
+/*
+* Align text right in tables
+*/
+tr.center-header-table th {
+  text-align: center;
+}
+tr.right-header-table th {
+  text-align: right;
+}
+
+table.no-borders td, table.no-borders th {
+  border: 0;
+}
+
+table tbody.colourise tr:nth-child(even) {
+  background-color: #191919;
+}
+
+td.left-aligned-cell {
+  text-align: left;
+}
+
+td.center-aligned-cell {
+  text-align: center;
+}
+
+td.right-aligned-cell {
+  text-align: right;
+}
+
+/* Separator line */
+table tr.bottom-separator th, table tr.bottom-separator td {
+  border-bottom: 2px solid #434343;
+}
+
+table tr.top-separator th, table tr.top-separator td {
+  border-top: 2px solid #434343;
+}
+
+table td.bottom-separator, table th.bottom-separator {
+  border-bottom: 2px solid #434343;
+}
+
+
+/* 
+* Footer
+*/
+section #footer .credits {
+  font-size: 11px;
+  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #696969;
+  margin-top: -10px;
+}
+section #footer .credits.left {
+  float: left;
+}
+section #footer .credits.right {
+  float: right;
+}
+
+/* CSS style to highlight copy code */
+div.highlight > button.copy {
+  opacity: 0;
+}
+
+div.highlight:hover > button.copy {
+  opacity: 1;
+}
+
+/*div.highlight > button.copy:active,
+div.highlight > button.copy:focus {
+opacity: 1;
+}
+*/
+
+div.highlight {
+  position: relative;
+}
+
+button.copy {
+  position: absolute;
+  top: .1rem;
+  right: .1rem;
+  z-index: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2a2a29;
+  margin: 1rem;
+  padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+  border-style: none;
+}

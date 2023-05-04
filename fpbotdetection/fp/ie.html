@@ -1,0 +1,53 @@
+---
+layout: default
+page_title: Internet Explorer vs. Internet Explorer + Selenium 
+---
+<div class="expandable" index="ie">
+  <table role="table">
+    <thead role="rowgroup">
+      <tr role="row">
+        <th role="columnheader">Property </th>
+        <th role="columnheader">Browser</th>
+        <th role="columnheader">Web bot</th>
+      </tr>
+    </thead>
+    <tbody>
+	    <tr role="row">
+	      <td role="cell">userAgent</td>
+	      <td role="cell">Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko</td>
+	      <td role="cell">Mozilla/5.0 (Windows NT 10.0; <strong>WOW64</strong>; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">cpuClass</td>
+	      <td role="cell">x64</td>
+	      <td role="cell">x86</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">Platform</td>
+	      <td role="cell">Win64</td>
+	      <td role="cell">Win32</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">Navigator</td>
+	      <td role="cell">{"appCodeName":"Mozilla", "appMinorVersion":"0", "browserLanguage":"en-GB", "cookieEnabled":true, <b>"cpuClass":"x64"</b>, "systemLanguage":"nl-NL", "userLanguage":"en-GB", "maxTouchPoints":0, "msManipulationViewsEnabled":true, "msMaxTouchPoints":0, "msPointerEnabled":true, "pointerEnabled":true, "webdriver":false, "geolocation":{}, "appName":"Netscape", "appVersion":"5.0 (Windows NT 10.0; <strong>Win64</strong>; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko", <b>"platform":"Win64"</b>, "product":"Gecko", "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko", "vendor":"", "onLine":true}</td>
+	      <td role="cell">{"appCodeName":"Mozilla", "appMinorVersion":"0", "browserLanguage":"en-GB", "cookieEnabled":true, <b>"cpuClass":"x86"</b>, "systemLanguage":"nl-NL", "userLanguage":"en-GB", "maxTouchPoints":0, "msManipulationViewsEnabled":true, "msMaxTouchPoints":0, "msPointerEnabled":true, "pointerEnabled":true, "webdriver":false, "geolocation":{}, "appName":"Netscape", "appVersion":"5.0 (Windows NT 10.0; <strong>WOW64</strong>; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko", <b>"platform":"Win32"</b>, "product":"Gecko", "userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko", "vendor":"", "onLine":true}</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">Request Headers</td>
+	      <td role="cell">"accept":"*/*", "content-type":"application/json", "referer":"http://localhost:8080/index.html", "accept-language":"en-GB, en;q=0.8, nl-NL;q=0.5, nl;q=0.3", "ua-cpu":"AMD64", "accept-encoding":"gzip,  deflate", "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko", "host":"localhost:8080", "content-length":"48274", "dnt":"1", "connection":"Keep-Alive", "cache-control":"no-cache"</td>
+	      <td role="cell">"accept":"*/*", "content-type":"application/json", "referer":"http://localhost:8080/index.html", "accept-language":"en-GB, en;q=0.8, nl-NL;q=0.5, nl;q=0.3", "accept-encoding":"gzip,  deflate", "user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko", "host":"localhost:8080", "content-length":"47902", "dnt":"1", "connection":"Keep-Alive", "cache-control":"no-cache"</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">Window keys</td>
+	      <td role="cell">-</td>
+	      <td role="cell">Missing: 	<b>__BROWSERTOOLS_CONSOLE_SAFEFUNC, __BROWSERTOOLS_CONSOLE_BREAKMODE_FUNC, __BROWSERTOOLS_CONSOLE, __BROWSERTOOLS_EMULATIONTOOLS_ADDED, __BROWSERTOOLS_DOMEXPLORER_ADDED, __BROWSERTOOLS_MEMORYANALYZER_ADDED, $0, $1, $2, $3, $4, __BROWSERTOOLS_NETWORK_TOOL_ADDED, __BROWSERTOOLS_DEBUGGER</b>
+				</td>
+		    </tr><tr role="row">
+		      <td role="cell">Document keys</td>
+		      <td role="cell">-</td>
+		      <td role="cell">Missing: <b>__IE_DEVTOOLBAR_CONSOLE_EVAL_ERROR, __IE_DEVTOOLBAR_CONSOLE_EVAL_ERRORCODE</b><br>
+						Added: <b>__webdriver_script_fn</b></td>
+			</tr>
+    </tbody>
+ 	</table>
+</div>

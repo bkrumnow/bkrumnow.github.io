@@ -1,0 +1,145 @@
+"2023":
+  - student:
+      name: LM
+      affiliation: TH Köln
+      type: Project + Bachelor Thesis
+      title: Automating logging on websites based on SSO
+      comment: ""
+  - student:
+      name: CW
+      affiliation: TH Köln
+      type: Bachelor Thesis
+      title: Attacking mobile WebViews
+      comment: ""
+  - student:
+      name: IoTGroup
+      affiliation: TH Köln
+      type: Project
+      title: Security of IoT devices - A security investigation of the ZigBee protocol
+      comment: ""
+  - student:
+      name: EA
+      affiliation: TH Köln
+      type: Master Thesis
+      title: Designing a Web-Based Platform for Exploring Biennial Artists’ Biographies
+      comment: ""
+  - student:
+      name: EB
+      affiliation: TH Köln
+      type: Master Thesis
+      title: Communicating Uncertainty in Data - Different Visualization Approaches and their Effect on Trust
+      comment: ""
+  - student:
+      name: BvL
+      affiliation: Open University
+      type: Master Thesis
+      title: Port Scanning via the Browser
+      comment: ""
+"2022":
+  - student:
+      name: IW
+      affiliation: TH Köln
+      type: Master Thesis
+      title: Digital Currencies and their Dependence on Governmental Control
+      comment: ""
+  - student:
+      name: JB
+      affiliation: TH Köln
+      type: Bachelor Thesis
+      title: Characterisation and Reconnaissance Analysis of Web Bots
+      comment: ""
+"2021":  
+  - student:
+      name: RH
+      affiliation: TH Köln
+      type: Master Thesis
+      title: Studying the use of Social Media in the Covid-19 era Awareness vs. Misinformation 
+      comment: ""
+  - student:
+      name: DB
+      affiliation: TH Köln
+      type: Project + Bachelor Thesis
+      title: Browser-Fingerprinting based on automated function calls
+      comment: ""
+  - student:
+      name: SE
+      affiliation: TH Köln
+      type: Bachelor Thesis
+      title: Exploring Attacks on Web Automation Frameworks
+      comment: ""
+  - student:
+      name: GM
+      affiliation: Open University
+      type: Master Thesis
+      title: Synchronising Distributed Scraping
+      comment: "published at MADWeb'23"
+  - student:
+      name: JP
+      affiliation: Open University
+      type: Master Thesis
+      title: Nothing to see here! On the Awareness of and Preparedness and Defenses
+      comment: ""
+  - student:
+      name: JK
+      affiliation: Open University
+      type: Master Thesis
+      title: Towards better Web Measurements by Mitigating Impacting Factors
+      comment: ""
+  - student:
+      name: DG
+      affiliation: Radboud University
+      type: Bachelor Thesis
+      title: Design and implementation of a stealthy OpenWPM web scraper
+      comment: "published at IMC'21"
+  - student:
+      name: DR
+      affiliation: Radboud University
+      type: Internship
+      title: Camouaging OpenWPM
+      comment: "published at IMC'21"
+"2020":
+  - student:
+      name: LM
+      affiliation: TH Köln
+      type: Master Thesis
+      title:  Towards a Trust Concept for Web Based Services of Heating, Ventilation and Air Conditioning Systems in the Smart Home
+      comment: ""
+  - student:
+      name: SE
+      affiliation: TH Köln
+      type: Projekt
+      title: Studying cookies storage and consence in the light of the GDPR
+      comment: ""
+"2019":
+  - student:
+      name: FD
+      affiliation: TH Köln
+      type: Master Thesis
+      title: Validity of automated web measurements
+      comment: ""
+  - student:
+      name: JKAV
+      affiliation: Open University
+      type: Bachelor Thesis
+      title: "Shepherd: Enabling Large-Scale Scanning of Websites after Social Single Sign-on"
+      comment: ""
+"2018":
+  - student:
+      name: NS
+      affiliation: TH Köln
+      type: Bachelor thesis
+      title: Criteria to distinguish automated browsers
+      comment: ""
+"2017":
+  - student: 
+      name: ProjectB-Group
+      affiliation: "TH Köln"
+      type: Project
+      title: Price Discrimination on mobile phones
+      comment: ""
+  - student: 
+      name: DL
+      affiliation: TH Köln
+      type: Project
+      title: Investigation of e-commerce sites for price discrimitation
+      comment: ""

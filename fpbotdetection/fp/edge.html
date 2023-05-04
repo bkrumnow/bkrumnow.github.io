@@ -1,0 +1,27 @@
+---
+layout: default
+page_title: Edge vs. Edge + Selenium
+---
+<div class="expandable" index="edge">
+  <table role="table">
+    <thead role="rowgroup">
+      <tr role="row">
+        <th role="columnheader">Property </th>
+        <th role="columnheader">Browser</th>
+        <th role="columnheader">Web bot</th>
+      </tr>
+    </thead>
+    <tbody>
+	    <tr role="row">
+	      <td role="cell">Request Headers</td>
+	      <td role="cell">"accept":"*/*", "origin":"http://localhost:8080", "referer":"http://localhost:8080/index.html", "accept-language":"en-GB, en;q=0.8, nl-NL;q=0.5, nl;q=0.3", "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,  like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299", "content-type":"application/json", "accept-encoding":"gzip,  deflate", "host":"localhost:8080", "content-length":"52554", "connection":"Keep-Alive", "cache-control":"no-cache"</td>
+	      <td role="cell">"accept":"*/*", "origin":"http://localhost:8080", "referer":"http://localhost:8080/index.html", "accept-language":"en-GB, en;q=0.8, nl-NL;q=0.5, nl;q=0.3", "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,  like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299", "content-type":"application/json", "accept-encoding":"gzip,  deflate", "host":"localhost:8080", "content-length":"52561", "connection":"Keep-Alive", "cache-control":"no-cache"</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">Window keys</td>
+	      <td role="cell"></td>
+	      <td role="cell">Modified: <strong>webdriver</strong></td>
+			</tr>
+    </tbody>
+ 	</table>
+</div>

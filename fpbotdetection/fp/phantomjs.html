@@ -1,0 +1,121 @@
+---
+layout: default
+page_title: Safari vs. PhantomJS
+---
+<div class="expandable" index="phantomjs">
+  <table role="table">
+    <thead role="rowgroup">
+      <tr role="row">
+        <th role="columnheader">Property</th>
+        <th role="columnheader">Browser: Safari</th>
+        <th role="columnheader">Web bot: PhantomJS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr role="row">
+        <td role="cell">UserAgent</td>
+        <td role="cell">Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15</td>
+        <td role="cell">Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) <strong>PhantomJS/2.1.1 Safari/538.1</strong></td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">Color depth</td>
+        <td role="cell">24</td>
+        <td role="cell">32</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Resolution</td>
+        <td role="cell">2560x1440</td>
+        <td role="cell">1024x768</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Avalaible resolution</td>
+        <td role="cell">2560x1333</td>
+        <td role="cell">1024x768</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">DoNotTrack</td>
+        <td role="cell">True</td>
+        <td role="cell">Not avalaible</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Canvas fingerprint</td>
+        <td role="cell">-</td>
+        <td role="cell">Deviates</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">OS inconsistencies</td>
+        <td role="cell">False</td>
+        <td role="cell">True</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">WebGL</td>
+        <td role="cell">data:image/png;base64,iVBORw0K...</td>
+        <td role="cell">Not avalaible</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">WebGl vendor</td>
+        <td role="cell">Intel Inc.~Intel(R) HD...</td>
+        <td role="cell">Not avalaible</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Touch support</td>
+        <td role="cell">0,false,false</td>
+        <td role="cell">0,true,true</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Fonts</td>
+        <td role="cell">-</td>
+        <td role="cell">Missing: Garamond</td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">Sandboxed XMLHttpRequest</td>
+        <td role="cell">True</td>
+        <td role="cell">False</td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">AutoClosePopup</td>
+        <td role="cell">-</td>
+        <td role="cell">Active</td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">Request Headers</td>
+        <td role="cell">"host":"localhost:8080", "content-type":"application/json", "origin":"http://localhost:8080", "accept-language":"en-gb", "accept-encoding":"gzip,  deflate", "connection":"keep-alive", "accept":"*/*", "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML,  like Gecko) Version/11.1.2 Safari/605.1.15", "referer":"http://localhost:8080/index.html", "dnt":"1", "content-length":"54042"</td>
+        <td role="cell">"referer":"http://localhost:8080/index.html", "origin":"http://localhost:8080", "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1", "content-type":"application/json", "accept":"*/*", "content-length":"2153859", "connection":"Keep-Alive", "accept-encoding":"gzip,  deflate", "accept-language":"en-GB, *", "host":"localhost:8080"</td>
+      </tr>
+      <tr role="row">
+        <td role="cell">Window keys</td>
+        <td role="cell">-</td>
+        <td role="cell">Missing: speechSynthesis, oncuechange, onrejectionhandled, ontoggle, onunhandledrejection, onanimationend, onanimationiteration, onanimationstart, onlanguagechange, origin, customElements, caches, isSecureContext, fetch, safari, Image, field, attr, arr</td>
+      </tr><tr role="row">
+        <td role="cell">Navigator</td>
+        <td role="cell">"doNotTrack":"1", "cookieEnabled":true, "geolocation":{}, "mediaDevices":{}, "webdriver":false, "appCodeName":"Mozilla", "appName":"Netscape", "appVersion":"5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML,  like Gecko) Version/11.1.2 Safari/605.1.15", "platform":"MacIntel", "product":"Gecko", "productSub":"20030107", "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML,  like Gecko) Version/11.1.2 Safari/605.1.15", "vendor":"Apple Computer,  Inc.", "vendorSub":"", "onLine":true, "serviceWorker":{}</td>
+        <td role="cell">"cookieEnabled":true, "productSub":"20030107", "product":"Gecko", "appCodeName":"Mozilla", "vendorSub":"", "vendor":"Apple Computer,  Inc.", "platform":"MacIntel", "appName":"Netscape", "appVersion":"5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML,  like Gecko) PhantomJS/2.1.1 Safari/538.1", "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML,  like Gecko) PhantomJS/2.1.1 Safari/538.1", "onLine":true</td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">MIME types</td>
+        <td role="cell">application/vnd.adobe.pdf,...</td>
+        <td role="cell">Not available</td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">Languages</td>
+        <td role="cell">en-GB</td>
+        <td role="cell">Not available</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Websocket object</td>
+        <td role="cell">-</td>
+        <td role="cell">deviating</td>
+  		</tr>
+      <tr role="row">
+        <td role="cell">Regular plugins</td>
+        <td role="cell">WebKit built-in PDF::::application/pdf~pdf,...</td>
+        <td role="cell">Not available</td>
+  		</tr>	
+      <tr role="row">
+        <td role="cell">Document keys</td>
+        <td role="cell">-</td>
+        <td role="cell">Missing: origin, contentType, onreadystatechange, scrollingElement, fonts, onvisibilitychange, oncopy, oncut, onpaste, pointerLockElement, onabort, onblur, oncanplay, oncanplaythrough, onchange, onclick, oncontextmenu, oncuechange, ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop, ondurationchange, onemptied, onended, onerror, onfocus, oninput, oninvalid, onkeydown, onkeypress, onkeyup, onload, onloadeddata, onloadedmetadata, onloadstart, onmousedown, onmouseenter, onmouseleave, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, onpause, onplay, onplaying, onprogress, onratechange, onrejectionhandled, onreset, onresize, onscroll, onseeked, onseeking, onselect, onstalled, onsubmit, onsuspend, ontimeupdate, ontoggle, onunhandledrejection, onvolumechange, onwaiting, ontransitionend, onanimationend, onanimationiteration, onanimationstart, children, firstElementChild, lastElementChild, childElementCount, rootElement, exitPointerLock, hasStorageAccess, requestStorageAccess, elementsFromPoint, prepend, append, isConnected, getRootNode</td>
+  		</tr>	
+    </tbody>
+  </table>
+</div>

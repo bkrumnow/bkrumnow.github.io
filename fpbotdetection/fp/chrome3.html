@@ -1,0 +1,33 @@
+---
+layout: default
+page_title: Chrome vs. Chrome + Puppeteer
+---
+
+<div class="expandable" index="chrome3">
+<table role="table">
+  <thead role="rowgroup">
+    <tr role="row">
+      <th role="columnheader">Property </th>
+      <th role="columnheader">Browser</th>
+      <th role="columnheader">Web bot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr role="row">
+      <td role="cell">Navigator</td>
+      <td role="cell"></td>
+      <td role="cell"></td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Request Headers</td>
+      <td role="cell">"host":"10.0.2.2:8080", "connection":"keep-alive", "content-length":"65515", "origin":"http://10.0.2.2:8080", "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36", "content-type":"application/json", "accept":"*/*", "referer":"http://10.0.2.2:8080/index.html", "accept-encoding":"gzip,  deflate", "accept-language":"en-US, en;q=0.9"</td>
+      <td role="cell">"host":"10.0.2.2:8080", "connection":"keep-alive", <b>"content-length":"65532"</b>, "origin":"http://10.0.2.2:8080", "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Chrome/64.0.3282.140 Safari/537.36", "content-type":"application/json", "accept":"*/*", "referer":"http://10.0.2.2:8080/index.html", "accept-encoding":"gzip,  deflate", "accept-language":"en-US, en;q=0.9"</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Window keys</td>
+      <td role="cell">-</td>
+      <td role="cell">Added: 	"webdriver":true</td>
+    </tr>
+  </tbody>
+</table>
+</div>

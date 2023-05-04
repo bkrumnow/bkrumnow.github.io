@@ -1,0 +1,36 @@
+---
+layout: default
+page_title: Safari vs. Safari + SafariWebDriver
+---
+<div class="expandable" index="safari">
+  <table role="table">
+    <thead role="rowgroup">
+      <tr role="row">
+        <th role="columnheader">Property </th>
+        <th role="columnheader">Browser</th>
+        <th role="columnheader">Web bot</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr role="row">
+        <td role="cell">Request Headers</td>
+        <td role="cell">"host":"localhost:8080", "content-type":"application/json", "origin":"http://localhost:8080", "accept-language":"en-gb", "accept-encoding":"gzip,  deflate", "connection":"keep-alive", "accept":"*/*", "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML,  like Gecko) Version/11.1.2 Safari/605.1.15", "referer":"http://localhost:8080/index.html", "dnt":"1", "content-length":"54042"</td>
+        <td role="cell">"host":"localhost:8080", "content-type":"application/json", "origin":"http://localhost:8080", "accept-language":"en-gb", "accept-encoding":"gzip,  deflate", "connection":"keep-alive", "accept":"*/*", "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML,  like Gecko) Version/11.1.2 Safari/605.1.15", "referer":"http://localhost:8080/index.html", "dnt":"1", "content-length":"54019"</td>
+      </tr>
+      <tr role="row">
+        <td role="cell">Window keys</td>
+        <td role="cell">-</td>
+        <td role="cell">Missing: <strong>field, attr, arr</strong></td>
+      </tr><tr role="row">
+        <td role="cell">Navigator</td>
+        <td role="cell">-</td>
+        <td role="cell">Modified: <strong>webdriver</strong></td>
+    	</tr>	
+      <tr role="row">
+        <td role="cell">Fonts</td>
+        <td role="cell">-</td>
+        <td role="cell">Missing: Garamond</td>
+    	</tr>	
+    </tbody>
+    </table>
+</div>

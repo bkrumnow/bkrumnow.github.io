@@ -1,0 +1,6 @@
+{% assign pub = site.data.publications[include.selection] %}
+{{ pub.title }}. {{ pub.authors }}. In {{ pub.venue }}. {% if pub.publisher %}{{ pub.publisher }},{% endif %} {% if pub.doi %} [doi:&nbsp;{{ pub.doi }}](https://doi.org/{{ pub.doi }}),{% endif %}
+{{ pub.year }}.
+<br>
+{% if pub.poster or pub.preprint and include.preprint %} &rarr; {% endif %}{% if pub.preprint and include.preprint %} [preprint]({{ pub.preprint }}).{% endif %}{% if pub.abstract %} [abstact]({{ pub.abstract }}), {% endif %}{% if pub.poster %} [poster]({{ pub.poster }}). {% endif %}
+

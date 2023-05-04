@@ -1,0 +1,27 @@
+---
+layout: default
+page_title: Chromium vs. Chromium + Puppeteer
+---
+<div class="expandable" index="chromium3">
+  <table role="table">
+    <thead role="rowgroup">
+      <tr role="row">
+        <th role="columnheader">Property </th>
+        <th role="columnheader">Browser</th>
+        <th role="columnheader">Web bot</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr role="row">
+	      <td role="cell">Request Headers</td>
+	      <td role="cell">"host":"10.0.2.2:8080", "connection":"keep-alive", "content-length":"65515", "origin":"http://10.0.2.2:8080", "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Ubuntu Chromium/64.0.3282.167 Chrome/64.0.3282.167 Safari/537.36", "content-type":"application/json", "accept":"*/*", "referer":"http://10.0.2.2:8080/index.html", "accept-encoding":"gzip,  deflate", "accept-language":"en-US, en;q=0.9"</td>
+	      <td role="cell">"host":"10.0.2.2:8080", "connection":"keep-alive", <b>"content-length":"65515"</b>, "origin":"http://10.0.2.2:8080", "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Ubuntu Chromium/64.0.3282.167 Chrome/64.0.3282.167 Safari/537.36", "content-type":"application/json", "accept":"*/*", "referer":"http://10.0.2.2:8080/index.html", "accept-encoding":"gzip,  deflate", "accept-language":"en-US, en;q=0.9"</td>
+	    </tr>
+	    <tr role="row">
+	      <td role="cell">Navigator</td>
+	      <td role="cell">{"vendorSub":"", "productSub":"20030107", "vendor":"Google Inc.", "maxTouchPoints":0, "hardwareConcurrency":4, "cookieEnabled":true, "appCodeName":"Mozilla", "appName":"Netscape", "appVersion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Ubuntu Chromium/64.0.3282.167 Chrome/64.0.3282.167 Safari/537.36", "platform":"Linux x86_64", "product":"Gecko", "userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Ubuntu Chromium/64.0.3282.167 Chrome/64.0.3282.167 Safari/537.36", "onLine":true, "doNotTrack":null, "geolocation":{}, "mediaDevices":{}, "connection":{}, "webkitTemporaryStorage":{}, "webkitPersistentStorage":{}, "serviceWorker":{}, "budget":{}, "permissions":{}, "presentation":{}}</td>
+	      <td role="cell">{"vendorSub":"", "productSub":"20030107", "vendor":"Google Inc.", "maxTouchPoints":0, "hardwareConcurrency":4, "cookieEnabled":true, "appCodeName":"Mozilla", "appName":"Netscape", "appVersion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Ubuntu Chromium/64.0.3282.167 Chrome/64.0.3282.167 Safari/537.36", "platform":"Linux x86_64", "product":"Gecko", "userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) Ubuntu Chromium/64.0.3282.167 Chrome/64.0.3282.167 Safari/537.36", "onLine":true, "doNotTrack":null, "geolocation":{}, "mediaDevices":{}, "connection":{}, "webkitTemporaryStorage":{}, "webkitPersistentStorage":{}, "serviceWorker":{}, <b>"webdriver":true</b>, "budget":{}, "permissions":{}, "presentation":{}}</td>
+	    </tr>
+    </tbody>
+ 	</table>
+</div>

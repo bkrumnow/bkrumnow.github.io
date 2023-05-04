@@ -1,0 +1,27 @@
+---
+layout: default
+page_title: Firefox (61.0) vs. Firefox + Selenium IDE 3.0.1
+---
+<div class="expandable" index="fx4">
+  <table role="table">
+    <thead role="rowgroup">
+      <tr role="row">
+        <th role="columnheader">Property</th>
+        <th role="columnheader">Browser</th>
+        <th role="columnheader">Web bot</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr role="row">
+        <td role="cell">Request Headers</td>
+        <td role="cell">"user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0", "accept":"*/*", "accept-language":"en-GB, en;q=0.5", "accept-encoding":"gzip,  deflate", "referer":"http://10.0.2.2:8080/index.html", "content-type":"application/json", "content-length":"51025", "host":"10.0.2.2:8080", "via":"1.1 AFProxy (squid/3.5.23)", "x-forwarded-for":"127.0.0.1", "cache-control":"max-age=259200", "connection":"keep-alive"</td>
+        <td role="cell">"user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0", "accept":"*/*", "accept-language":"en-GB, en;q=0.5", "accept-encoding":"gzip,  deflate", "referer":"http://10.0.2.2:8080/index.html", "content-type":"application/json", <b>"content-length":"51116"</b>, "host":"10.0.2.2:8080", "via":"1.1 AFProxy (squid/3.5.23)", "x-forwarded-for":"127.0.0.1", "cache-control":"max-age=259200", "connection":"keep-alive"</td>
+      </tr>
+      <tr role="row">
+        <td role="cell">Window keys</td>
+        <td role="cell">-</td>
+        <td role="cell">Missing: <b>script1533066727672</b></td>
+    	</tr>
+    </tbody>
+    </table>
+</div>

@@ -1,0 +1,72 @@
+---
+layout: default
+page_title: Chrome (HL) vs. Chrome (HL) + Puppeteer
+---
+<div class="expandable" index="chrome4">
+<table role="table">
+  <thead role="rowgroup">
+    <tr role="row">
+        <th role="columnheader">Property </th>
+        <th role="columnheader">Browser</th>
+        <th role="columnheader">Web bot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr role="row">
+      <td role="cell">UserAgent</td>
+      <td role="cell">Mozilla/5.0 (X11; Linux x86 64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36</td>
+      <td role="cell">Mozilla/5.0 (X11; Linux x86 64) AppleWebKit/537.36 (KHTML, like Gecko) <b>HeadlessChrome</b>/64.0.3282.140 Safari/537.36</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Resolution</td>
+      <td role="cell">1920x975</td>
+      <td role="cell">800x600</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Available Resolution</td>
+      <td role="cell">1855x951</td>
+      <td role="cell">800x600</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Language inconsistency</td>
+      <td role="cell">False</td>
+      <td role="cell">True</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Canvas fp</td>
+      <td role="cell">-</td>
+      <td role="cell">Deviates</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Plugins</td>
+      <td role="cell">Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf pdf,...</td>
+      <td role="cell">-</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">MIME Types</td>
+      <td role="cell">{"0":{},"1":{},"2":{},"3":{},"4":{},"5":{},"6":{}}</td>
+      <td role="cell">{}</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Request Headers</td>
+      <td role="cell">"host":"10.0.2.2:8080", "connection":"keep-alive", "content-length":"65515", "origin":"http://10.0.2.2:8080", "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36", "content-type":"application/json", "accept":"*/*", "referer":"http://10.0.2.2:8080/index.html", "accept-encoding":"gzip,  deflate", <b>"accept-language":"en-US, en;q=0.9"</b></td>
+      <td role="cell">"host":"10.0.2.2:8080", "connection":"keep-alive", <b>"content-length":"64980"</b>, "origin":"http://10.0.2.2:8080", "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML,  like Gecko) <b>HeadlessChrome</b>/64.0.3282.140 Safari/537.36", "content-type":"application/json", "accept":"*/*", "referer":"http://10.0.2.2:8080/index.html", "accept-encoding":"gzip,  deflate"</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Window keys</td>
+      <td role="cell">-</td>
+      <td role="cell">Missing: chrome, attr</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">autoClosePopup</td>
+      <td role="cell">-</td>
+      <td role="cell">Active</td>
+    </tr>
+    <tr role="row">
+      <td role="cell">Document elements</td>
+      <td role="cell">-</td>
+      <td role="cell">Extra nodes: "childNodes":[]}, {"nodeType":3, "nodeName":"#text", "nodeValue":"#myId {visibility:visible}"</td>
+    </tr>
+  </tbody>
+</table>
+</div>
