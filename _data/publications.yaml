@@ -45,8 +45,8 @@ secweb21:
   doi: "10.1109/EuroSPW54576.2021.00012"
   preprint: "https://www.open.ou.nl/hjo/papers/secweb21.pdf"
 madweb20:
-  authors: "Hugo Jonker, Stefan Karsch, Benjamin Krumnow, and Marc Sleegers."
-  title: "Shepherd: a generic approach to automating website login."
+  authors: "Hugo Jonker, Stefan Karsch, Benjamin Krumnow, and Marc Sleegers"
+  title: "Shepherd: a generic approach to automating website login"
   venue: "Proc. 2nd NDSS Workshop on Measurements, Attacks, and Defenses for the Web (MADWEB'20)"
   publisher: "Internet Society"
   pages: "10 pages"
