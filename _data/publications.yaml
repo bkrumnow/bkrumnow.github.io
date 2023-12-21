@@ -14,7 +14,7 @@ conext22:
   pages: "16 pages"
   year: "2022"
   doi: "10.1145/3555050.3569131"
-  preprint: "https://www.open.ou.nl/hjo/papers/conext22.pdf"
+  preprint: "https://cs.ou.nl/members/hugo/papers/conext22.pdf"
 imc21:
   authors: "Goßen, Daniel and Jonker, Hugo and Karsch, Stefan and Krumnow, Benjamin and Roefs, David"
   title: "HLISA: towards a more reliable measurement tool"
@@ -23,7 +23,7 @@ imc21:
   pages: "380--389"
   year: "2021"
   doi: "10.1145/3487552.3487843"
-  preprint: "https://www.open.ou.nl/hjo/papers/IMC21.pdf"
+  preprint: "https://cs.ou.nl/members/hugo/papers/IMC21.pdf"
 cose21:
   bibtextag: "article"
   type: "journal"
@@ -43,7 +43,7 @@ secweb21:
   publisher: "IEEE"
   year: "2021"
   doi: "10.1109/EuroSPW54576.2021.00012"
-  preprint: "https://www.open.ou.nl/hjo/papers/secweb21.pdf"
+  preprint: "https://cs.ou.nl/members/hugo/papers/secweb21.pdf"
 madweb20:
   authors: "Hugo Jonker, Stefan Karsch, Benjamin Krumnow, and Marc Sleegers"
   title: "Shepherd: a generic approach to automating website login"
@@ -60,7 +60,7 @@ esorics19:
   pages: "pp. 586–605"
   year: "2019"
   doi: "10.1007/978-3-030-29962-0_28"
-  preprint: "http://www.open.ou.nl/hjo/papers/ESORICS19.pdf"
+  preprint: "https://cs.ou.nl/members/hugo/papers/ESORICS19.pdf"
 pricediffposter:
   authors: "Benjamin Krumnow, Hugo Jonker, Godfried Meesters"
   title: "POSTER: What you pay depends on where you pay"
