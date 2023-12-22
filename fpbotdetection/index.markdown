@@ -14,7 +14,7 @@ Gabry Vlot
 This project aims to explore web bot detection based on properties defered from browser fingerprinting.
 We base our research on a reverse analysis of a commercial bot detector. We found that unique properties web clients are used to sufficiently identify bots or frameworks that enable browser automation. We developed a more general approach to find system properties of web bots that allow us to distinguish these from human-controlled web clients. Our developed methodology comprises browser fingerprinting and comparisons of resulting fingerprints of a regular browser with web bot frameworks that belong to the same browser family. The derived fingerprint surfaces of web bots were used to conduct the first measurement of the prevalence of web bot detection in the Web.
 
-On this site, web provide additional materials to our research published at [ESORICS 2019](https://esorics2019.uni.lu/). You can get the paper from [here](http://www.open.ou.nl/hjo/papers/ESORICS19.pdf). 
+On this site, web provide additional materials to our research published at [ESORICS 2019](https://esorics2019.uni.lu/). You can get the paper from [here](https://cs.ou.nl/members/hugo/papers/ESORICS19.pdf). 
 
 
 ### Fingerprint surface of common web bots
