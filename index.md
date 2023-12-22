@@ -7,9 +7,10 @@ title: About
   <div class="continuous-text" markdown="1">
 # About me
 
-I am an external PhD student at the [Department of Computer Science](https://www.ou.nl/en/web/open-universiteit/onderzoek-informatica) of the Open University Netherlands, and I am a research assistant in the [Computer Networks and IT Security](https://blogs.gm.fh-koeln.de/ktds/de/startseite/) lab at the TH Köln in Gummersbach. Since 2013, I have also been a lecturer in the [Web Science programme](https://www.th-koeln.de/en/academics/web-science-masters-program_7228.php). 
-
-My research interest lies mainly in web security and privacy subjects. Specifically, I focus on web measurements related to security and bot detection.
+I hold a Ph.D. in [Computer Science](https://cs.ou.nl/) by the Open Universiteit and I am working as an information security
+specialist at d-fine. My academic background includes web security and privacy expertise, focusing on web measurements and bot detection.
+Additionally, I have been lecturing in the [Web Science programme](https://www.th-koeln.de/en/academics/web-science-masters-program_7228.php)
+since 2013.
 
 </div>
   <div class="fig-next-to-text" markdown="1">
