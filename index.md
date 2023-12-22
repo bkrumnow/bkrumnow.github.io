@@ -7,7 +7,7 @@ title: About
   <div class="continuous-text" markdown="1">
 # About me
 
-I hold a Ph.D. in [Computer Science](https://cs.ou.nl/) by the Open Universiteit and I am working as an information security
+I hold a Ph.D. in [Computer Science](https://cs.ou.nl/) from the Open Universiteit and I am working as an information security
 specialist at d-fine. My academic background includes web security and privacy expertise, focusing on web measurements and bot detection.
 Additionally, I have been lecturing in the [Web Science programme](https://www.th-koeln.de/en/academics/web-science-masters-program_7228.php)
 since 2013.
