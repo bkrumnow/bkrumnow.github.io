@@ -34,4 +34,4 @@ since 2013.
 
 
 # Off-time
-I am happy to be a member of the [Gemüsekoop e.V.](https://www.gemuesekoop.de/), and I am voluntarily helping to digitise their processes. If you are interested in sustainable social agriculture and live in Cologne's area, come and [join us](https://www.gemuesekoop.de/mitmachen/)!
+I am happy to be a member of the [Gemüsekoop e.V.](https://www.gemuesekoop.de), and I am voluntarily helping to digitise their processes. If you are interested in sustainable social agriculture and live in Cologne's area, come and [join us](https://www.gemuesekoop.de/mitmachen)!
