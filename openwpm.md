@@ -39,7 +39,7 @@ In conclusion, our case study shows that even the most popular web measurement
 framework, OpenWPM, is more gullible than expected, and this gullibility is
 rarely accounted for in studies.
 
-* A preprint of our paper will be available for download [here](https://www.open.ou.nl/hjo/papers/conext22.pdf).
+* A preprint of our paper will be available for download [here](https://cs.ou.nl/members/hugo/papers/conext22.pdf).
 
 # Data set & source code
 We create a hardened version of OpenWPM that fixes the found flaws and detetactability issues from above. We contrast our version (WPM<sub>hide</sub>) with vanilla OpenWPM on 1,487 sites out of the Tranco Top 5k sites, which include bot detection scripts. 
