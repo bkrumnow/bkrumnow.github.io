@@ -45,11 +45,11 @@ Shepherd has been used for multiple studies:
 * Stefano Calzavara, Hugo Jonker, Benjamin Krumnow, and Alvise Rabitti. 
   Measuring web session security at scale.
   In Jour. of Computers & Security,
-  doi: [10.1016/j.cose.2021.102472](https://doi.org/10.1016/j.cose.2021.102472), 2021. [Preprint](https://repository.ubn.ru.nl/bitstream/handle/2066/238037/238037pre.pdf?sequence=1)
+  doi: [10.1016/j.cose.2021.102472](https://doi.org/10.1016/j.cose.2021.102472), 2021. [Preprint](https://cs.ou.nl/members/hugo/papers/compsec21.pdf)
 * Luca Compagna, Hugo Jonker, Benjamin Krumnow, Merve Sahin, and Johannes Krochewski. 
   A preliminary study on the adoption and effectiveness of SameSite cookies as a CSRF defence.
   In Proc. 2nd Workshop on Designing Security for the Web (SecWeb'21),
-  doi: [10.1109/EuroSPW54576.2021.00012](https://doi.org/10.1109/EuroSPW54576.2021.00012), 2021. [Preprint](https://www.open.ou.nl/hjo/papers/secweb21.pdf)
+  doi: [10.1109/EuroSPW54576.2021.00012](https://doi.org/10.1109/EuroSPW54576.2021.00012), 2021. [Preprint](https://cs.ou.nl/members/hugo/papers/secweb21.pdf)
 
 
 # Cite
