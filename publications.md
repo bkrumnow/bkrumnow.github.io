@@ -6,6 +6,7 @@ permalink: /publications/
 ---
 # Conference and Journal Papers
 <div class="listofpapers" markdown=1>
+* {% include papers.html selection="thesis23" preprint=true %}
 * {% include papers.html selection="madweb23" preprint=true %}
 * {% include papers.html selection="conext22" preprint=true %}
 * {% include papers.html selection="imc21" preprint=true %}

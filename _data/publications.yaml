@@ -1,9 +1,17 @@
+thesis23:
+  authors: "Benjamin Krumnow"
+  title: "Web Scrapology: overcoming limits of automating web measurements"
+  venue: "Proc. 5th NDSS Workshop on Measurements, Attacks, and Defenses for the Web (MADWEB'23)"
+  publisher: "IEEE Internet Society"
+  pages: "11 pages"
+  year: "2023"
+  doi: "/assets/files/publications/proefschrift_krumnow.pdf"
 madweb23:
   authors: "Hugo Jonker, Stefan Karsch, Benjamin Krumnow, and Godfried Meesters"
   title: "Are some prices more equal than others? Evaluating store-based price differentiation"
   venue: "Proc. 5th NDSS Workshop on Measurements, Attacks, and Defenses for the Web (MADWEB'23)"
-  publisher: "IEEE Internet Society"
-  pages: "11 pages"
+  publisher: "Open Universiteit"
+  pages: "212 pages"
   year: "2023"
   doi: "10.14722/madweb.2023.23011"
 conext22:
