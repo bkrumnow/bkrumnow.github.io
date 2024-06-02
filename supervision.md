@@ -4,7 +4,12 @@ page_title: Supervision
 title: Supervision
 permalink: /supervision/
 ---
-During my work, I have acted as supervisor or advisor in various projects. Below is a list of projects that happened with my involvment.
+During my work, I have acted as supervisor or advisor in various projects. Below is a list of projects where I have been involved.
+
+# 2024
+<div class="listofstudents" markdown=1>
+{% include supervision.html year="2024" %}
+</div>
 
 # 2023
 <div class="listofstudents" markdown=1>
