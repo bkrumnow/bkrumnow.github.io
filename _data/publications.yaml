@@ -5,7 +5,7 @@ thesis23:
   publisher: "Open Universiteit"
   pages: "11 pages"
   year: "2023"
-  doi: "/assets/files/publications/proefschrift_krumnow.pdf"
+  preprint: "/assets/files/publications/proefschrift_krumnow.pdf"
 madweb23:
   authors: "Hugo Jonker, Stefan Karsch, Benjamin Krumnow, and Godfried Meesters"
   title: "Are some prices more equal than others? Evaluating store-based price differentiation"
